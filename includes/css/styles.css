@@ -1,0 +1,237 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#visible-sm{
+
+ padding-bottom: 0;
+
+}
+
+#bigCallout{
+
+  height:50px;
+}
+
+#features{
+
+margin-top:0px;
+text-align: center;
+}
+
+#features2{
+
+margin-top:100px;
+text-align: center;
+}
+
+#features img{
+  margin: 0 0 20px;
+  text-align: center;
+
+
+}
+
+#featuresHeading h2{
+
+  font-size: 155%
+}
+#featuresHeading p{
+
+  font-size: 130%;
+}
+
+
+#inputEmail{
+
+  margin-bottom: 15px;
+}
+
+.modal-footer{
+
+  border-top:0px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.well .page-header{
+
+     margin-top: 0;
+     font-size: 90%;
+
+   }
+
+
+
+
+ .well .page-header h1{
+
+     margin-top: 0;
+     font-size: 25px;
+
+   }
+
+
+   footer {
+   	background: #333;
+   	color: #eee;
+   	font-size: 11px;
+   	padding: 20px;
+    margin-top:20px;
+    height:auto;
+   }
+
+.footer col-sm-4{
+
+  text-align: center;
+
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    border-radius: 0;
+    background-color: white;
+    padding-bottom: 10px;
+    color:black;
+    font-size: 110%;
+
+
+   }
+
+
+
+#searchInput{
+
+width:200px;
+
+}
+
+.navbar-brand{
+  padding:13px 15px;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel{
+
+  margin-top: 100px;
+}
+
+.carousel-caption{
+
+  font-size: 24px;
+  color:blue
+}
+.carousel-caption h4{
+
+  font-size: 32px;
+  color: blue;
+}
+#myCarousel .item{
+  height:300px;
+}
+
+#slide1{
+  background: url('../../images/soccer_medium.jpg') top center no-repeat;
+}
+#slide2{
+  background: url('../../images/test_1_medium.jpg') top center no-repeat;
+}
+#slide3{
+  background: url('../../images/food_medium.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .well{
+     margin:10px 0 10px 0;
+
+   }
+
+.tabbable img.thumbnail{
+
+  margin:0 20px 10px 0;
+  border: 0px;
+}
+
+#moreInfo h3{
+
+  font-size: 250%
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  #myCarousel .item{
+    height:310px;
+  }
+
+  #slide1{
+    background: url('../../images/soccer_small.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/test_1_small.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/food_small.jpg') top center no-repeat;
+  }
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+  #myCarousel .item{
+    height:500px;
+  }
+
+  #slide1{
+    background: url('../../images/soccer.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/test_1.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/food.jpg') top center no-repeat;
+  }
+
+}
